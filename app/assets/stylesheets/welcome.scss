@@ -1,0 +1,106 @@
+#church_icon {
+  height: 96px;
+  width: 130px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.church_without_color{
+  display: none;
+}
+
+#camera_icon:hover{
+  height: 140px;
+  width: 175px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#film_icon {
+  height: 96px;
+  width: 124px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.eating{
+  display: none;
+}
+
+
+#letter_icon {
+  height: 90px;
+  width: 110px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.melted {
+  display: none;
+}
+
+#visual_art_icon {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.burned {
+  display: none;
+}
+
+
+#main_title{
+  font-family: generica;
+  font-size: 75px;
+  margin-top: 150px;
+  margin-left: 450px; 
+}
+
+#about_me_link{
+  text-decoration: none;
+  color: black;
+}
+
+#about_me_link:hover{
+  color: FireBrick;
+}
+
+#visual_art_word{
+  position: absolute;
+  margin-left: 500px;
+  font-family: generica;
+  
+}
+
+#film_word{
+  position: absolute;
+  margin-left: 350px;
+  font-family: generica;
+}
+
+#writing_word{
+  position: absolute;
+  margin-left: 200px;
+  font-family: generica;
+}
+
+#photo_word{
+  position: absolute;
+  margin-left: 55px;
+  font-family: generica;
+}
+
+.footer{
+  font-size: .8em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+
+
+

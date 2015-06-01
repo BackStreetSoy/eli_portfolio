@@ -1,0 +1,13 @@
+<div id="div_one">
+    <ul id= "photo_list">
+      <%@photos.each do |photo| %>
+    <li id="photo_number_<%=@photos.index(photo)%>"><%=photo.title%></li>
+    <%end%>
+  </ul>
+</div>
+ 
+ <div class = "photo">
+  <%=image_tag("phata.png", :id=> "photo_sample")%>
+</div>
+
+ 

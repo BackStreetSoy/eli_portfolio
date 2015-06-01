@@ -1,0 +1,20 @@
+#photo_list{
+  display: inline;
+  position: fixed;
+  list-style-type: none;
+  font-family: generica;
+  font-size: 24px; 
+}
+
+#div_one{
+  display: inline-block;
+}
+
+#photo_sample{
+  display: inline-block;
+  position: absolute;
+  width: 20em;
+  length: 20em;
+  margin-left: 25em;
+  margin-top: 2.5em;
+}

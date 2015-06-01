@@ -1,0 +1,39 @@
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td>
+     <%= link_to(image_tag("basic_photo_button.png", :id=> "church_icon",:class => "church_with_color" ), photos_index_path)%>
+
+      <%= link_to(image_tag("hovering_photo_button.jpg", :id=> "church_icon", :class=>"church_without_color"), photos_index_path)%>
+      <div class="church_without_color" id="photo_word">photography</div>
+
+  <%= link_to(image_tag("letter_button_v2.png", :id=>"letter_icon", :class => "unmelted"), writings_index_path)%>
+
+      <%= link_to(image_tag("hovering_letter_button.png", :id=>"letter_icon", :class=>"melted"), writings_index_path)%>
+      <div class="melted" id="writing_word">writing</div>
+
+      <%= link_to(image_tag("basic_film_button.png", :id => "film_icon", :class=>"not_eating"), movies_index_path) %>
+
+       <%= link_to(image_tag("hovering_film_button.png", :id => "film_icon", :class=>"eating"), movies_index_path) %>
+       <div class="eating" id="film_word">film</div>
+
+
+       <%= link_to(image_tag("visual_art_button.png", :id=>"visual_art_icon", :class => "unburned"), visual_art_index_path)%>
+
+      <%= link_to(image_tag("hovering_visual_art_button.png", :id=>"visual_art_icon", :class=>"burned"), visual_art_index_path)%>
+      <div class="burned" id="visual_art_word">visual art</div>
+
+      </td>
+
+
+
+    </tr>
+  </tbody>
+</table><br><br>
+
+
+<div id="main_title">
+  <%= link_to("Eli Morin", users_info_path, :id=> "about_me_link") %>
+</div>
+

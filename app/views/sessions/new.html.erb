@@ -1,0 +1,9 @@
+<%= form_for(:session, url: signin_path) do |f| %>
+
+
+<div id="signin_form">
+  <%= f.password_field :password, :placeholder=>"password", :id=>"password_field"%>
+  <br>
+  <%= f.submit "sign in" %>
+  <% end %>
+</div>

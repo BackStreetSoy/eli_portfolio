@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ElisSite</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<%if @home%>
+  <body id= "enter_page">
+    <%= yield %>
+  </body>
+<%else%> 
+  <body> 
+      <p id= "home_link" align= "right"><%=link_to("Soul Waxing", welcome_index_path)%></p>
+      <hr>
+    <%=yield %>
+    <div class="footer">kowabunga digital</div>
+  </body>
+<%end%>
+
+</html>

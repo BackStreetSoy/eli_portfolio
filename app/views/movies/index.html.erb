@@ -1,0 +1,13 @@
+<div id="div_one">
+    <ul id= "video_list">
+  <%@movies.each do |movie| %>
+    <li id="vid_number_<%= @movies.index(movie)%>"><%=movie.title%></li>
+  <%end%>
+    </ul>
+
+</div>
+
+<div class="movie", id="video_sample">
+
+<iframe src='https://player.vimeo.com/video/82981085?color=ff0179' width='500' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
