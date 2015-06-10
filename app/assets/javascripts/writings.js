@@ -12,7 +12,6 @@ $(document).ready(function(){
 
   $("li#entry_number_"+index).on("mouseover", function(e){
       e.preventDefault();
-
       $.ajax({
         url: "/writings/data",
         method: "get",
