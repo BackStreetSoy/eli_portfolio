@@ -24,7 +24,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'jquery-turbolinks'
 gem 'bcrypt'
 gem 'rails_12factor', group: :production
+<<<<<<< HEAD
 
+=======
+>>>>>>> c5b53fe5488d2aae89233d208670a3bfca85cf8a
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
