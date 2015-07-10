@@ -25,4 +25,16 @@ airport = user.photos.create(title:"strasbourg airport", data_content: "strasbou
 
 church = user.photos.create(title:"church", data_content: "church.png")
 
+chicken = user.photos.create(title: "chicken", data_content: "chicken.png")
+
+shoot_out = user.photos.create(title: "shoot out", data_content: "shoot_out.png")
+
+peruvian_street = user.photos.create(title: "peruvian street", data_content: "peruvian_street.png")
+
+peruvian_man = user.photos.create(title: "peruvian man", data_content: "peruvian_man.png")
+
+peruvian_hillside = user.photos.create(title: "peruvian hillside", data_content: "peruvian_hillside.png")
+
+palm_and_buildings = user.photos.create(title: "palm and buildings", data_content: "palm_and_buildings.png")
+
 desert_visions = user.writings.create(title: "desert visions", content: "Surly dark-faced men labor in predawn silence, the red sand disturbed by the rustle of heavy boots. Spread out behind them like the wake of a slow-moving boat is the result of their toil: a line of electric towers, enormous constructions of iron and wire, stretching out like a metal vein. No one is guiding the workers, they work by instinct. No one speaks. The blossoming dawn is punctuated with the whirring of machines and the occasional festive shower of sparks. The faceless acolytes trek across the landscape, noiselessly bringing with them the spectre of a new order, and the accompanying values, confusion, bathtubs, Coca-Cola, etc. On a nearby hill, a shepherd boy watches their progress with indifference.")

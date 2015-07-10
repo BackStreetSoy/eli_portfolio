@@ -1,0 +1,295 @@
+/* line 1, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/enter.scss */
+#soul_title {
+  font-size: 10em;
+}
+
+/* line 7, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/enter.scss */
+#soul_title a {
+  text-decoration: none;
+  color: FloralWhite;
+}
+
+/* line 12, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/enter.scss */
+#soul_title a:hover {
+  color: FireBrick;
+}
+
+/* line 16, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/enter.scss */
+#enter_page {
+  height: 100em;
+  background-image: url("artists_portfolio.jpg");
+}
+
+/* line 21, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/enter.scss */
+#home_link a {
+  text-decoration: none;
+  font-family: generica;
+  color: black;
+  font-size: 1.5em;
+}
+/* line 1, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/movies.scss */
+#video_list {
+  display: inline;
+  position: fixed;
+  list-style-type: none;
+  font-family: generica;
+  font-size: 24px;
+}
+
+/* line 9, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/movies.scss */
+#div_one {
+  display: inline-block;
+}
+
+/* line 13, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/movies.scss */
+#video_sample {
+  display: inline-block;
+  position: absolute;
+  margin-left: 20em;
+  margin-top: 1.5em;
+}
+
+/* line 20, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/movies.scss */
+.active {
+  font-weight: bold;
+  font-family: Generica Bold;
+}
+/* line 1, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/photos.scss */
+#photo_list {
+  display: inline;
+  position: fixed;
+  list-style-type: none;
+  font-family: generica;
+  font-size: 24px;
+}
+
+/* line 9, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/photos.scss */
+#div_one {
+  display: inline-block;
+}
+
+/* line 13, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/photos.scss */
+#photo_sample {
+  display: inline-block;
+  position: absolute;
+  width: 20em;
+  length: 20em;
+  margin-left: 25em;
+  margin-top: 2.5em;
+}
+
+/* line 22, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/photos.scss */
+.active {
+  font-weight: bold;
+}
+/* line 6, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/sessions.scss */
+#password_field {
+  padding: 1em .75em .6875em;
+  width: 300px;
+}
+
+/* line 13, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/sessions.scss */
+#signin_form {
+  margin-left: 30em;
+  margin-top: 2em;
+}
+/* line 5, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/users.scss */
+#info_photo {
+  margin-left: 4.5em;
+  margin-top: 1.5em;
+  width: 25em;
+  length: 25em;
+}
+
+/* line 12, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/users.scss */
+#info_text {
+  display: inline-block;
+  position: absolute;
+  width: 20em;
+  length: 20em;
+  margin-left: 10em;
+  margin-top: 0.5em;
+}
+/* line 5, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/visual_art.scss */
+#ready {
+  margin-left: 15em;
+}
+/* line 1, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+#church_icon {
+  height: 96px;
+  width: 130px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* line 8, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+.church_without_color {
+  display: none;
+}
+
+/* line 12, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+#camera_icon:hover {
+  height: 140px;
+  width: 175px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* line 19, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+#film_icon {
+  height: 96px;
+  width: 124px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* line 26, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+.eating {
+  display: none;
+}
+
+/* line 31, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+#letter_icon {
+  height: 90px;
+  width: 110px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* line 38, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+.melted {
+  display: none;
+}
+
+/* line 42, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+#visual_art_icon {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* line 49, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+.burned {
+  display: none;
+}
+
+/* line 54, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+#main_title {
+  font-family: generica;
+  font-size: 75px;
+  margin-top: 150px;
+  margin-left: 450px;
+}
+
+/* line 61, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+#about_me_link {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 66, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+#about_me_link:hover {
+  color: FireBrick;
+}
+
+/* line 70, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+#visual_art_word {
+  position: absolute;
+  margin-left: 500px;
+  font-family: generica;
+}
+
+/* line 77, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+#film_word {
+  position: absolute;
+  margin-left: 350px;
+  font-family: generica;
+}
+
+/* line 83, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+#writing_word {
+  position: absolute;
+  margin-left: 200px;
+  font-family: generica;
+}
+
+/* line 89, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+#photo_word {
+  position: absolute;
+  margin-left: 55px;
+  font-family: generica;
+}
+
+/* line 95, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/welcome.scss */
+.footer {
+  font-size: .8em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 1, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/writings.scss */
+#writing_list {
+  display: inline;
+  position: fixed;
+  list-style-type: none;
+  font-family: generica;
+  font-size: 24px;
+}
+
+/* line 9, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/writings.scss */
+#div_one {
+  display: inline-block;
+}
+
+/* line 13, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/writings.scss */
+#writing_sample {
+  display: inline-block;
+  position: absolute;
+  width: 40em;
+  length: 20em;
+  margin-left: 30em;
+  margin-top: 2.5em;
+}
+
+/* line 22, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/writings.scss */
+h3 {
+  font-family: generica;
+}
+
+/* line 26, /Users/WizardFartSauce/Desktop/eli_rails/elis_site/app/assets/stylesheets/writings.scss */
+.active {
+  font-weight: bold;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+@font-face {
+  font-family: 'Generica';
+  src: url('Generica.otf'); /* IE9 Compat Modes */
+  src: url('Generica.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Generica.otf') format('opentype'), /* Super Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Generica Bold';
+  src: url('Generica_Bold.otf'); /* IE9 Compat Modes */
+  src: url('Generica_Bold.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Generica_Bold.otf') format('opentype'), /* Super Modern Browsers */
+}
